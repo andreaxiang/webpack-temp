@@ -2,7 +2,7 @@ import _ from 'lodash';
 import $ from 'jquery';
 
 function component () {
-  var element = j('<div></div>');
+  var element = $('<div></div>');
 
   /* lodash is required for the next line to work */
   element.html(_.join(['Hello','webpack2'], ' '));
